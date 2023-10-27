@@ -12,3 +12,5 @@ def find_duplicate(nums):
             unique_nums.add(num)
 
     return False
+
+    # return len(nums) != len(set(nums))
